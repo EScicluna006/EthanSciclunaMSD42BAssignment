@@ -1,74 +1,233 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T16:10:54.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ObKLntPg94hcfq5tPes3" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T16:36:29.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IgW-7gliBgZH8DSejvR_" version="14.0.5" type="github">
   <diagram id="Bi6SfK514BnOtQGCBbrN" name="Page-1">
     <mxGraphModel dx="536" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h2TopMDb46sXbyzFHRBF-56" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="650" width="60" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="50" height="50" as="geometry" />
+          <mxGeometry x="370" y="80" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="130" as="sourcePoint" />
-            <mxPoint x="465" y="170" as="targetPoint" />
+            <mxPoint x="394.5" y="130" as="sourcePoint" />
+            <mxPoint x="395" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="190" y="280" width="530" height="20" as="geometry" />
+          <mxGeometry x="120" y="280" width="600" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-5" value="Player Start in Room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="405" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="335" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="230" as="sourcePoint" />
-            <mxPoint x="465" y="280" as="targetPoint" />
+            <mxPoint x="394.5" y="230" as="sourcePoint" />
+            <mxPoint x="395" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="345" as="sourcePoint" />
-            <mxPoint x="250" y="375" as="targetPoint" />
+            <mxPoint x="180" y="345" as="sourcePoint" />
+            <mxPoint x="180" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-12" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="300" as="sourcePoint" />
-            <mxPoint x="250" y="330" as="targetPoint" />
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="180" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-13" value="Move to T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="216" y="327" width="70" height="20" as="geometry" />
+          <mxGeometry x="146" y="327" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="458" y="344.5" as="sourcePoint" />
-            <mxPoint x="458" y="374.5" as="targetPoint" />
+            <mxPoint x="333" y="344.5" as="sourcePoint" />
+            <mxPoint x="333" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-15" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="458" y="299.5" as="sourcePoint" />
-            <mxPoint x="458" y="329.5" as="targetPoint" />
+            <mxPoint x="333" y="299.5" as="sourcePoint" />
+            <mxPoint x="333" y="329.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-16" value="Move to C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="327.5" width="70" height="20" as="geometry" />
+          <mxGeometry x="300" y="327.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="345" as="sourcePoint" />
-            <mxPoint x="660" y="375" as="targetPoint" />
+            <mxPoint x="700" y="344.5" as="sourcePoint" />
+            <mxPoint x="700" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-18" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="300" as="sourcePoint" />
-            <mxPoint x="660" y="330" as="targetPoint" />
+            <mxPoint x="700" y="299.5" as="sourcePoint" />
+            <mxPoint x="700" y="329.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h2TopMDb46sXbyzFHRBF-19" value="Move to L" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="327" width="70" height="20" as="geometry" />
+          <mxGeometry x="670" y="326.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-20" value="Player finds dust on the table." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-21" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="400" as="sourcePoint" />
+            <mxPoint x="120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-22" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="350" as="sourcePoint" />
+            <mxPoint x="80" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-23" value="Move to R" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="327" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-24" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="290" as="sourcePoint" />
+            <mxPoint x="80" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-25" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h2TopMDb46sXbyzFHRBF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="290" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-26" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="345" as="sourcePoint" />
+            <mxPoint x="473" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-27" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="300" as="sourcePoint" />
+            <mxPoint x="473" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-28" value="Move to P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="328" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-29" value="Player finds boors on chair." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="275" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-30" value="Move to R" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-31" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="300" as="sourcePoint" />
+            <mxPoint x="265" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-33" value="Player finds a number of wires and a small thin screwdriver." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-35" value="Player picks Screwdriver." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-36" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-37" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="500" as="sourcePoint" />
+            <mxPoint x="570" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-38" value="Move to R" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="375.5" as="sourcePoint" />
+            <mxPoint x="570" y="300.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-40" value="Player Finds Locked Door." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-41" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="460" as="sourcePoint" />
+            <mxPoint x="670" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-44" value="If Player has Screwdriver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="670" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-46" value="Door&#39;s opened" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-47" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h2TopMDb46sXbyzFHRBF-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="400" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-48" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="400" as="sourcePoint" />
+            <mxPoint x="790" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-50" value="Move to R" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-51" value="" style="endArrow=none;html=1;entryX=0.427;entryY=-0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="h2TopMDb46sXbyzFHRBF-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="290" as="sourcePoint" />
+            <mxPoint x="795" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-53" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="h2TopMDb46sXbyzFHRBF-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="290" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h2TopMDb46sXbyzFHRBF-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="690" as="sourcePoint" />
+            <mxPoint x="670" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2TopMDb46sXbyzFHRBF-55" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="650" y="660" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
