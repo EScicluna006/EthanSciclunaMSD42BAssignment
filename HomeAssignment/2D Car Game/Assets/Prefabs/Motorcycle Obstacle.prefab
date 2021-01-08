@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 189043364848609052}
   - component: {fileID: 8598650163576582083}
   - component: {fileID: 789959114627183186}
+  - component: {fileID: -8463796283583080798}
   m_Layer: 0
   m_Name: Motorcycle Obstacle
   m_TagString: Untagged
@@ -111,3 +112,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 4
+--- !u!114 &-8463796283583080798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4531725563778716986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325980fc9ec1c724ebc4c9fbe37c27a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  ObstacleShoot: {fileID: 7634117844264780017, guid: 96b133554b9825247aabee9bac02bf3c, type: 3}
+  ObstacleShootSpeed: 15

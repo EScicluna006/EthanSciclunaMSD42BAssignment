@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9059799332234206961}
   - component: {fileID: 7323343296305105680}
   - component: {fileID: 1917719076099777108}
+  - component: {fileID: -1846490529705549827}
   m_Layer: 0
   m_Name: 2D Police Car
   m_TagString: Untagged
@@ -111,3 +112,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
+--- !u!114 &-1846490529705549827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9164496912544324448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325980fc9ec1c724ebc4c9fbe37c27a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  ObstacleShoot: {fileID: 6860020639035564717, guid: 18161e3f30e09094aabd091805a4c3b5, type: 3}
+  ObstacleShootSpeed: 15
