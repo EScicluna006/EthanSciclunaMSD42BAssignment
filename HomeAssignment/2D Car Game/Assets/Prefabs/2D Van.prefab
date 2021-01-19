@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 1878824536607855978}
   - component: {fileID: 4714660984586103140}
   - component: {fileID: 3602993251450948771}
-  m_Layer: 0
+  - component: {fileID: 1405364943193203291}
+  - component: {fileID: 8646374661059696922}
+  - component: {fileID: 5568071528758230909}
+  m_Layer: 9
   m_Name: 2D Van
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,3 +114,129 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 3
+--- !u!60 &1405364943193203291
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928604907012738379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7, y: 6.77}
+    newSize: {x: 3.7, y: 6.77}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.89, y: -2.675}
+      - {x: 0.96999997, y: -2.485}
+      - {x: 1.01, y: -2.385}
+      - {x: 1.0699999, y: -1.9449999}
+      - {x: 1.0799999, y: -1.665}
+      - {x: 1.0799999, y: -1.4649999}
+      - {x: 1.25, y: -1.365}
+      - {x: 1.36, y: -1.265}
+      - {x: 1.36, y: -1.185}
+      - {x: 1.29, y: -1.155}
+      - {x: 1.12, y: -1.235}
+      - {x: 1.11, y: -1.165}
+      - {x: 1.12, y: -0.895}
+      - {x: 1.14, y: -0.375}
+      - {x: 1.14, y: 0.185}
+      - {x: 1.13, y: 0.39499998}
+      - {x: 1.11, y: 0.85499996}
+      - {x: 1.1, y: 1.125}
+      - {x: 1.09, y: 1.425}
+      - {x: 1.0699999, y: 1.875}
+      - {x: 1.04, y: 2.375}
+      - {x: 0.98999995, y: 2.715}
+      - {x: 0.93, y: 2.7749999}
+      - {x: 0.71, y: 2.865}
+      - {x: 0.35, y: 2.945}
+      - {x: 0.19, y: 2.955}
+      - {x: -0.34, y: 2.975}
+      - {x: -0.41, y: 2.965}
+      - {x: -0.66999996, y: 2.885}
+      - {x: -0.90999997, y: 2.825}
+      - {x: -1.05, y: 2.7549999}
+      - {x: -1.11, y: 2.675}
+      - {x: -1.14, y: 2.345}
+      - {x: -1.18, y: 1.8149999}
+      - {x: -1.2099999, y: 1.425}
+      - {x: -1.24, y: 1.025}
+      - {x: -1.24, y: 0.715}
+      - {x: -1.25, y: 0.295}
+      - {x: -1.26, y: -0.275}
+      - {x: -1.24, y: -0.275}
+      - {x: -1.24, y: -0.66499996}
+      - {x: -1.23, y: -1.185}
+      - {x: -1.25, y: -1.165}
+      - {x: -1.38, y: -1.105}
+      - {x: -1.43, y: -1.105}
+      - {x: -1.4599999, y: -1.155}
+      - {x: -1.4599999, y: -1.2149999}
+      - {x: -1.4499999, y: -1.245}
+      - {x: -1.3299999, y: -1.365}
+      - {x: -1.2099999, y: -1.425}
+      - {x: -1.1999999, y: -1.795}
+      - {x: -1.18, y: -2.075}
+      - {x: -1.12, y: -2.465}
+      - {x: -1.05, y: -2.635}
+      - {x: -0.93, y: -2.7649999}
+      - {x: -0.78999996, y: -2.845}
+      - {x: -0.7, y: -2.875}
+      - {x: -0.37, y: -2.935}
+      - {x: -0.17, y: -2.955}
+      - {x: 0.07, y: -2.955}
+      - {x: 0.19999999, y: -2.945}
+      - {x: 0.58, y: -2.895}
+      - {x: 0.78, y: -2.7949998}
+--- !u!50 &8646374661059696922
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928604907012738379}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &5568071528758230909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928604907012738379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779872d07f3d8ed4493bc83162119f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstacleHealth: 100
+  obstacleExplosion: {fileID: 8300000, guid: aa332b47d1a419d4da9f210b695c4a3e, type: 3}
+  obstacleExplosionVolume: 0.7
+  DeathVFX: {fileID: 817640661940417105, guid: 299dc8575856b544b91aaf511fdcca81, type: 3}
+  explosionDuration: 1

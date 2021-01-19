@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     [SerializeField] float padding = 1f;
     [SerializeField] float playerHealth = 100f;
 
+    [SerializeField] AudioClip impactSound;
+    [SerializeField] [Range(0,1)]float ImpactSoundVolume = 0.75f;
+
     float xMin, xMax;
     
     void Start()
@@ -31,6 +34,25 @@ public class Player : MonoBehaviour
         xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
 
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        ProcessHit(damageDealer);
+    }
+
+    private void ProcessHit(DamageDealer damageDealer)
+    {
+        playerHealth -= damageDealer.GetDamage();
+        AudioSource.PlayClipAtPoint(impactSound, Camera.main.transform.position, ImpactSoundVolume);
+
+
+        if (playerHealth <= 0)
+        {
+            Destroy(gameObject);
+            FindObjectOfType<Level>().LoadGameOver();
+        }
+    }
+
     void Update()
     {
         Move();

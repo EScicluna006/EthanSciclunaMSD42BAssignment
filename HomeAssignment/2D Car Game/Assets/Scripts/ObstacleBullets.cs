@@ -23,8 +23,7 @@ public class ObstacleBullets : MonoBehaviour
     private void ObstacleFire()
     {
         GameObject obstacleShoot = Instantiate(ObstacleShoot, transform.position, Quaternion.identity) as GameObject;
-        obstacleShoot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -ObstacleShootSpeed);
-
+        obstacleShoot.GetComponent<Rigidbody2D>().velocity = new Vector2(0, ObstacleShootSpeed);
     }
 
     void Start()
