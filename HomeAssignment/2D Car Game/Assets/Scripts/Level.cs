@@ -15,7 +15,7 @@ public class Level : MonoBehaviour
     public void LoadGame()
     {
         //loads the scene with name LaserDefender
-        SceneManager.LoadScene("LaserDefender");
+        SceneManager.LoadScene("2DCarGame");
     }
 
     public void LoadGameOver()
