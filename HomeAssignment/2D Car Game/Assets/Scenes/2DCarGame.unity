@@ -280,11 +280,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 318144103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf2729f969bfa0543a48c5c83652945e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3140bda099e9d844fac26aafc8ec6327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthText: {fileID: 0}
-  gameSession: {fileID: 0}
 --- !u!114 &318144106
 MonoBehaviour:
   m_ObjectHideFlags: 0

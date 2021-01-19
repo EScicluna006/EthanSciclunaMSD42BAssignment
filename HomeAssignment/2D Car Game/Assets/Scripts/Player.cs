@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
-    [SerializeField] float playerHealth = 100f;
+    [SerializeField] int playerHealth = 50;
 
     [SerializeField] AudioClip impactSound;
     [SerializeField] [Range(0,1)]float ImpactSoundVolume = 0.75f;
@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
     {
         playerHealth -= damageDealer.GetDamage();
         AudioSource.PlayClipAtPoint(impactSound, Camera.main.transform.position, ImpactSoundVolume);
-
+        FindObjectOfType<GameSession>().Health(playerHealth);
 
         if (playerHealth <= 0)
         {
