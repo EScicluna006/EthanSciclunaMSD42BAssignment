@@ -58,9 +58,9 @@ public class ObstaclePathing : MonoBehaviour
             }
         }
         //if enemy reached last waypoint
-        else
-        {
-            Destroy(gameObject);
-        }
+        //else
+        //{
+           //Destroy(gameObject);
+        //}
     }
 }

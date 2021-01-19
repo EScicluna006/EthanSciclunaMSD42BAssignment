@@ -22,10 +22,15 @@ public class Level : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
+    public void LoadWinScreen()
+    {
+        SceneManager.LoadScene("WinnerScreen");
+    }
 
     public void QuitGame()
     {
         Application.Quit();
     }
+    
 
 }
