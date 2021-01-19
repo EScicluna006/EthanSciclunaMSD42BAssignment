@@ -20,6 +20,5 @@ public class ScoreTxt : MonoBehaviour
     void Update()
     {
         scoreText.text = gameSession.GetScore().ToString();
-        Debug.Log(scoreText);
     }
 }
